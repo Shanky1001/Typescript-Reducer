@@ -54,6 +54,5 @@ function App() {
 export default App;
 
 export const useToDos = () => {
-  // const {taskState,dispatch} = useContext<any>(ToDoContext)
   return useContext<any>(ToDoContext)
 }
