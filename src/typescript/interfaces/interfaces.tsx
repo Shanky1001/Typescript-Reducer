@@ -4,7 +4,7 @@ export interface todos {
     "userId": number,
     "id": number,
     "title": string,
-    "completed": boolean
+    "completed": boolean,
 }
 
 export interface todoReducerInter {
